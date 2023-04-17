@@ -1,0 +1,38 @@
+{
+  "name": "node-typescript-starter",
+  "version": "1.0.0",
+  "description": "A starting point for any new Node TypeScript project",
+  "main": "dist/app.js",
+  "scripts": {
+    "env:load": "export $(cat .env | xargs)",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run env:load && tsup src/app.ts --format esm",
+    "start": "npm run build -- --onSuccess 'node dist/app.js'",
+    "start:dev": "npm run start -- --watch",
+    "format": "prettier --write 'src/**/*.ts'",
+    "lint:fix": "eslint 'src/**/*.ts' --fix --ext .ts",
+    "lint": "eslint 'src/**/*.ts' --ext .ts",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "docker:build": "docker build -t node-typescript-starter .",
+    "docker:run": "docker run -p 3000:3000 node-typescript-starter"
+  },
+  "prepare": "npm run build",
+  "author": "techsquidtv",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-security": "^1.7.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "prettier": "^2.8.7",
+    "rimraf": "^5.0.0",
+    "ts-jest": "^29.1.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
