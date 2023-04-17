@@ -36,6 +36,11 @@
 - Start the development server by running npm run `start:dev`
 - Build your awesome Node.js application with TypeScript!
 
+## Use The Template 🧩
+Use this repository as the template for your next project or try it out now in a codespace!
+
+<img src="https://user-images.githubusercontent.com/33272306/232631223-97d35cd0-9336-400f-a576-4a05fa5dcc57.png" width="300px">
+
 ## Available Scripts 📜
 
 - `npm run env:load`: Loads environment variables from the `.env` file
