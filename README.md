@@ -8,9 +8,15 @@
 
 <p align="center">
   <!-- Add shields from https://shields.io/ -->
-  <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/KyleTryon">
-  <img alt="GitHub" src="https://img.shields.io/github/license/KyleTryon/node-typescript-starter">
-  <img alt="Discord" src="https://img.shields.io/discord/415249366840901643">
+  <a href="https://github.com/sponsors/KyleTryon">
+    <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/KyleTryon">
+  </a>
+  <a href="https://github.com/KyleTryon/Node-TypeScript-Starter/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/KyleTryon/node-typescript-starter">
+  </a>
+  <a href="https://discord.gg/CTC9DVvYZz">
+    <img alt="Discord" src="https://img.shields.io/discord/415249366840901643">
+  </a>
   <a href='https://fosstodon.org/@techsquidtv'>
     <img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109259216201105997?domain=https%3A%2F%2Ffosstodon.org&style=social">
   </a>
