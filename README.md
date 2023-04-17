@@ -39,7 +39,7 @@
 ## Available Scripts 📜
 
 - `npm run env:load`: Loads environment variables from the `.env` file
-- `npm run clean`: Cleans" the project by removing the `dist` directory,
+- `npm run clean`: Cleans the project by removing the `dist` directory
 - `npm run build`: Builds the TypeScript project, outputting ES modules
 - `npm run start`: Runs the compiled JavaScript application
 - `npm run start:dev`: Starts the development server with live-reloading
