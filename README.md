@@ -28,7 +28,7 @@
 - Build and Development scripts with watch mode
 - Linting with ESLint and Prettier
     - Essential ESLint plugins for improved code quality
-- Unit testing with Jest in TypeScript
+- Unit testing with [Vitest](https://vitest.dev/)
 - Automated dependency-free `.env`  injection
 - Auto-build with `prepare` script
 - Dockerfile for production deployment
@@ -57,7 +57,8 @@ Use this repository as the template for your next project or try it out now in a
 - `npm run format`: Formats your code using Prettier
 - `npm run lint`: Runs ESLint to check for code quality issues
 - `npm run lint:fix`: Automatically fixes code quality issues using ESLint
-- `npm run test`: Runs unit tests with Jest
+- `npm run test`: Runs unit tests with Vitest
+- `npm run coverage`: Generates a [`c8`](https://vitest.dev/guide/coverage.html) code coverage report
 - `npm run docker:build`: Builds a Docker image for production deployment
 - `npm run docker:run`: Runs the Docker image in a container
 
